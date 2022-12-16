@@ -64,7 +64,6 @@ pip install optuna
 
 
 
-
 ### n hyper-parameter of the function
 
 *Logistic Regression
