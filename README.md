@@ -1,10 +1,18 @@
 # Final Term Project
 
-## _Brain Tumor Classification_
-
-### Dataset for classification of brain tumors
+## Brain Tumor Classification
 
 Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc.The folder contains MRI data. The images are split into Training and Testing folders. Each folder has more four subfolders. These folders have MRIs of respective tumor classes
+
+### What I do in my project
+I create model to predict types of Brain tumor in this project.
+Firstly, I Train a model using training dataset.
+Secondly, I Measure accuracy of the trained model on test dataset.
+Finaly, I tune the best yuper-parameter to maximize the accuracy.
+
+### Training dataset
+
+Tumor_dataset has 4 classes of images which are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc.
 
 ### Requirement
 
@@ -62,11 +70,16 @@ pip install optuna
 
 ### algorithm
 
-
+LogisticRegression
 
 ### n hyper-parameter of the function
 
-*Logistic Regression
+Optimization Algorithm
+'solver': 'saga'.
+Regularization strength
+'C': 1.229528032208937 
+Maximum number of iterations
+'max_iter': 64032
 
 ### Author
 
